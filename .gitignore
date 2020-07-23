@@ -3,6 +3,10 @@
 # dependencies
 /node_modules
 
+# visusalstudiocode #
+.vscode/
+.vscode/settings.json
+
 # testing
 /coverage
 
