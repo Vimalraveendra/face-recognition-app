@@ -8,6 +8,13 @@ class SignIn extends React.Component{
 		signInPassword:''
 	}
 
+	//  dynamically changing the input events
+
+	// onChangeEvents = (event)=>{
+	// 	const{name,value}= event.target;
+	// 	this.setState({[name]:value})
+	// }
+
 	onEmailChange =(event)=>{
 		this.setState({signInEmail:event.target.value})
 	}
