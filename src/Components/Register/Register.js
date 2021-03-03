@@ -7,6 +7,13 @@ class Register extends React.Component {
     name: "",
   };
 
+  //  dynamically changing the input events
+
+	// onChangeEvents = (event)=>{
+	// 	const{name,value}= event.target;
+	// 	this.setState({[name]:value})
+	// }
+
   onNameChange = (event) => {
     this.setState({ name: event.target.value });
   };
